@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Urna Eletrônica</title>
+</head>
+<body>
+  <section class="urna container">
+    <div class="tela">
+      <div class="informacoes">
+        <div class="info-left">
+          <ul>
+            <li><span>Seu voto para</span></li>
+            <li><span>Vereador</span></li>
+            <li>
+              <div class="numero pisca"></div>
+              <div class="numero"></div>
+            </li>
+            <li>Nome: Fulano <br>Partido: ABC <br>Vice-prefeito: Beltrano</li>
+          </ul>
+        </div>
+        <div class="info-right">
+          <div class="imagem-cadidatos">
+            <img src="./imagens/" alt="Nicolas Tesla">
+            <p>Prefeito</p>
+          </div>
+          <div class="imagem-cadidatos small">
+            <img src="./imagens/" alt="Steve Jobs">
+            <p>Vice-prefeito</p>
+          </div>
+        </div>
+      </div>
+      <div class="instrucoes">
+        <p>Aperte a tecla: <br>CONFIRMA para CONFIRMAR este voto.</p>
+        <p>CORRIGIR para REINICIAR este voto.</p>
+      </div>
+    </div>
+    <div class="teclado-bg">
+      <div class="teclado">
+        <ul class="teclado-botao">
+          <li onclick="clicou('1')">1</li>
+          <li onclick="clicou('2')">2</li>
+          <li onclick="clicou('3')">3</li>
+          <li onclick="clicou('4')">4</li>
+          <li onclick="clicou('5')">5</li>
+          <li onclick="clicou('6')">6</li>
+          <li onclick="clicou('7')">7</li>
+          <li onclick="clicou('8')">8</li>
+          <li onclick="clicou('9')">9</li>
+          <li onclick="clicou('0')">0</li>
+        </ul>
+        <ul class="teclado-confirmacao">
+          <li class ="botao-branco" onclick ="branco()">Branco</li>
+          <li class ="botao-corrige" onclick ="corrige()">Corrige</li>
+          <li class ="botao-confirma" onclick ="confirma()">Confirma</li>
+        </ul>
+      </div>
+    </div>
+    <script src="./etapas.js"></script>
+    <script src="./script.js"></script>
+  </section>
+</body>
+</html>
