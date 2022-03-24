@@ -52,9 +52,9 @@ function atualizaInterface() {
     
     candidato = candidato[0];
     seuVoto.style.display = 'block';
-    descricao.innerHTML = `Nome: ${candidato.nome}<br/>Partido: ${candidato.partido}`;
     aviso.style.display = 'block';
-
+    descricao.innerHTML = `Nome: ${candidato.nome}<br/>Partido: ${candidato.partido}<br> ${etapa.titulos !== 'VEREADOR' ? `Vice: ` + candidato.vice : ''}`;
+    
     let fotosHtml = '';
     
     for(let i in candidato.foto){
