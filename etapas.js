@@ -33,7 +33,7 @@ let etapas = [
         partido: 'ABC',
         vice: 'Steve Jobs',
         foto:[
-          {url:'Nikola_Tesla.jpeg', legenda: 'Vereador'},
+          {url:'Nikola_Tesla.jpeg', legenda: 'Prefeito'},
           {url:'Steve_Jobs.jpg', legenda: 'Vice-Prefeito', small: true}
         ]
       },
@@ -44,7 +44,7 @@ let etapas = [
         partido: 'ABCD',
         vice: 'Bill Gates',
         foto:[
-          {url:'Thomas Edison.jpg', legenda: 'Vereador'},
+          {url:'Thomas Edison.jpg', legenda: 'Prefeito'},
           {url:'Bill_Gates.jpg', legenda: 'Vice-Prefeito', small: true}
         ]
       },
