@@ -6,7 +6,7 @@ let etapas = [
       {
         numero: '10101',
         nome: 'Tim Berners Lee',
-        partido: 'Os Brabos',
+        partido: 'ABC',
         foto:[
           {url:'Tim_Berners_Lee.jpg', legenda: 'Vereador'}
         ]
@@ -15,7 +15,7 @@ let etapas = [
       {
         numero: '20201',
         nome: 'Brendan Eich',
-        partido: 'Os Mestres',
+        partido: 'ABCD',
         foto:[
           {url:'Brendan_Eich.jpg', legenda: 'Vereador'}
         ]
@@ -30,7 +30,7 @@ let etapas = [
       {
         numero: '10',
         nome: 'Nikola Tesla',
-        partido: 'Os Brabos',
+        partido: 'ABC',
         vice: 'Steve Jobs',
         foto:[
           {url:'Nikola_Tesla.jpeg', legenda: 'Vereador'},
@@ -41,7 +41,7 @@ let etapas = [
       {
         numero: '20',
         nome: 'Thomas Edison.',
-        partido: 'Os Mestres',
+        partido: 'ABCD',
         vice: 'Bill Gates',
         foto:[
           {url:'Thomas Edison.jpg', legenda: 'Vereador'},
